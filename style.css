@@ -106,6 +106,10 @@ small{
 .formField.error .error_icon{
     visibility: visible;
 }
+.error_color::placeholder{
+ color: hsl(0, 100%, 74%);
+ font-weight: 800;
+}
 
 
 @media screen and (max-width:800px){
