@@ -11,6 +11,8 @@ function error(input, message){
 
     error_message = formField.querySelector("small")
     error_message.innerHTML = `<em>${message}</em>`
+     email.placeholder = `email@example/com`
+    email.classList.add("error_color")
 }
 
 function success(input){
